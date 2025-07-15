@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap Ejemplo de listas de grupos</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <h1 class="display-1">Listas de grupos</h1>
+        
+        <br>
+        
+        <h1>Lista de grupos no ordenada</h1>
+        <ul class="list-group w-50">
+            <li class="list-group-item">Pinturas</li>
+            <li class="list-group-item">Documentos</li>
+            <li class="list-group-item">Música</li>
+            <li class="list-group-item">Videos</li>
+        </ul>
+
+        <br>
+        
+        <h1>Lista de grupos no ordenada con items activos y desactivados</h1>
+        <ul class="list-group w-50">
+            <li class="list-group-item active">Pinturas</li>
+            <li class="list-group-item">Documentos</li>
+            <li class="list-group-item">Música</li>
+            <li class="list-group-item disabled">Videos</li>
+        </ul>
+       
+        <br>
+        
+        <h1>Lista de grupos no ordenada de borde a borde, sin linea de contendor</h1>
+        <ul class="list-group list-group-flush w-50">
+            <li class="list-group-item">Pinturas</li>
+            <li class="list-group-item">Documentos</li>
+            <li class="list-group-item">Música</li>
+            <li class="list-group-item">Videos</li>
+        </ul>
+
+        <br>
+        
+        <h1>Lista de grupos numerada</h1>
+        <ol class="list-group list-group-numbered w-50">
+            <li class="list-group-item">Pinturas</li>
+            <li class="list-group-item">Documentos</li>
+            <li class="list-group-item">Música</li>
+            <li class="list-group-item">Videos</li>
+        </ol>
+
+        <br>
+        
+        <h1>Lista de grupos con check-box</h1>
+        <div class="list-group w-50">
+            <label class="list-group-item">
+                <input type="checkbox" class="form-check-input me-1" name="hobbies">
+                Música
+            </label>
+            <label class="list-group-item">
+                <input type="checkbox" class="form-check-input me-1" name="hobbies">
+                Viajes y aventuras
+            </label>
+            <label class="list-group-item">
+                <input type="checkbox" class="form-check-input me-1" name="hobbies">
+                Leer
+            </label>
+        </div>
+
+        <br>
+        
+        <h1>Lista de grupos con radio button</h1>
+        <div class="list-group w-50">
+            <label class="list-group-item">
+                <input type="radio" class="form-check-input me-1" name="genero">
+                Varón
+            </label>
+            <label class="list-group-item">
+                <input type="radio" class="form-check-input me-1" name="genero">
+                Mujer
+            </label>
+        </div>
+
+        <br>
+        
+        <h1>Lista de grupos con links</h1>
+        <div class="list-group w-50">
+            <a href="#" class="list-group-item list-group-item-action active">
+                <i class="bi-house-fill"></i> Home
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class="bi-camera-fill"></i> Fotografías 
+                <span class="badge rounded-pill bg-primary float-end">145</span>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class="bi-music-note-beamed"></i> Música 
+                <span class="badge rounded-pill bg-primary float-end">50</span>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class="bi-film"></i> Videos 
+                <span class="badge rounded-pill bg-primary float-end">8</span>
+            </a>
+        </div>
+
+        <br>
+        
+        <h1>Lista de grupos con Contenidos</h1>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h4>Asteroide detectados cerca de la tierra</h4>
+                    <small>Hace 1 día</small>
+                </div>
+                <p>
+                    Investigadores detectaron un asteroide del tamaño de una cancha de futbol cerca 
+                    de la tierra. El asteroide no representa una amenaza para el planeta, pero es
+                    dificil de realizar su seguimiento.
+                </p>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action active">
+                <div class="d-flex w-100 justify-content-between">
+                    <h4>Cientificos encontraron un agujero negro masivo</h4>
+                    <small>Hace 2 día</small>
+                </div>
+                <p>
+                    Cientificos encontraron un agujero negro ultramasivo y ultrabrillante en el centrado
+                    de una galaxia distante, cuya masa es de alrededor de una millón de veces la masa de 
+                    nuestro sol.
+                </p>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h4>La NASA lanza una sonda solar</h4>
+                    <small>Hace 3 día</small>
+                </div>
+                <p>
+                    La NASA lanzó una sonda solar tipo Parker en el año 2018 con la misión de realizar
+                    observaciones de la corona exterior del Sol. Se trata de la primera misión que "toca"
+                    el Sol.
+                </p>
+            </a>
+        </div>       
+
+    </body>
+</html>
